@@ -1,0 +1,236 @@
+{
+  "properties": [
+    {
+      "id": "4az2zsw",
+      "name": "Ruqsan Hotel",
+      "address": "Garowe",
+      "type": "Hotel",
+      "status": "Vacant",
+      "price": 500,
+      "rooms": 14,
+      "kitchens": 3,
+      "bathrooms": 6,
+      "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "wbxg8k4",
+      "name": "Ramada Bosaaso",
+      "address": "Bosaaso",
+      "type": "Hotel",
+      "status": "Vacant",
+      "price": 500,
+      "rooms": 33,
+      "kitchens": 6,
+      "bathrooms": 10,
+      "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "e52koya",
+      "name": "Ramas Apartment",
+      "address": "Garowe",
+      "type": "Apartment",
+      "status": "Occupied",
+      "price": 500,
+      "rooms": 12,
+      "kitchens": 4,
+      "bathrooms": 4,
+      "image": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "3m1wef0",
+      "name": "Saxansaxo Commercial",
+      "address": "Bosaaso",
+      "type": "Commercial",
+      "status": "Vacant",
+      "price": 500,
+      "rooms": 3,
+      "kitchens": 1,
+      "bathrooms": 2,
+      "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "jv724b5",
+      "name": "Rugsan House",
+      "address": "Galkacyo",
+      "type": "House",
+      "status": "Under Maintenance",
+      "price": 300,
+      "rooms": 5,
+      "kitchens": 1,
+      "bathrooms": 3,
+      "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "1",
+      "name": "Hilaac Apartment",
+      "address": "Waberi, Mogadishu",
+      "type": "Apartment",
+      "status": "Occupied",
+      "price": 450,
+      "rooms": 3,
+      "kitchens": 1,
+      "bathrooms": 2,
+      "image": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "2",
+      "name": "Somali Golden House",
+      "address": "Hodan, Mogadishu",
+      "type": "House",
+      "status": "Vacant",
+      "price": 1200,
+      "rooms": 5,
+      "kitchens": 2,
+      "bathrooms": 4,
+      "image": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "3",
+      "name": "City Center Plaza",
+      "address": "Boondheere, Mogadishu",
+      "type": "Commercial",
+      "status": "Occupied",
+      "price": 3500,
+      "rooms": 12,
+      "kitchens": 1,
+      "bathrooms": 6,
+      "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80"
+    }
+  ],
+  "tenants": [
+    {
+      "id": "t1",
+      "name": "Abdi Rahman",
+      "propertyId": "1",
+      "unit": "4B",
+      "email": "abdi@email.com",
+      "phone": "25261-555-0101",
+      "leaseStart": "2023-01-01",
+      "leaseEnd": "2024-01-01",
+      "status": "Ending Soon"
+    },
+    {
+      "id": "t2",
+      "name": "Maryan Ali",
+      "propertyId": "1",
+      "unit": "2A",
+      "email": "maryan@email.com",
+      "phone": "25261-555-0102",
+      "leaseStart": "2023-06-15",
+      "leaseEnd": "2024-06-15",
+      "status": "Active"
+    }
+  ],
+  "rents": [
+    {
+      "id": "r_ramada",
+      "propertyId": "wbxg8k4",
+      "amount": 500,
+      "dueDate": "2026-07-15",
+      "status": "Pending",
+      "tenantName": "maryan ahmed"
+    },
+    {
+      "id": "r_ramas",
+      "propertyId": "e52koya",
+      "amount": 500,
+      "dueDate": "2026-07-01",
+      "status": "Pending",
+      "tenantName": "User Agent"
+    },
+    {
+      "id": "r_hilaac",
+      "propertyId": "1",
+      "amount": 450,
+      "dueDate": "2026-06-15",
+      "status": "Paid",
+      "tenantName": "Abdi Rahman"
+    }
+  ],
+  "sales": [
+    {
+      "id": "wgggzln",
+      "propertyId": "kqjxyrz",
+      "clientName": "muuse3 ciise ali",
+      "amount": 9000,
+      "date": "2026-06-27",
+      "transactionType": "Rent",
+      "status": "Pending"
+    }
+  ],
+  "financials": [
+    {
+      "id": "f_1",
+      "date": "2026-06-26",
+      "clientName": "Abdi Rahman",
+      "description": "April Rent Payment",
+      "totalAmount": 450,
+      "paidAmount": 450,
+      "category": "Income",
+      "status": "Paid"
+    },
+    {
+      "id": "f_2",
+      "date": "2026-06-27",
+      "clientName": "Hilaac Handyman",
+      "description": "Pipe maintenance & plumbing repair",
+      "totalAmount": 150,
+      "paidAmount": 150,
+      "category": "Expense",
+      "status": "Paid"
+    }
+  ],
+  "maintenance": [
+    {
+      "id": "m1",
+      "propertyName": "Hilaac Apartment",
+      "tenantName": "Abdi Rahman",
+      "issue": "Water tap is leaking",
+      "priority": "High",
+      "status": "In Progress",
+      "date": "2024-05-10"
+    }
+  ],
+  "users": [
+    {
+      "id": "u_1782536914991",
+      "name": "maryan ahmed",
+      "email": "maryanahmed127822@gmail.com",
+      "phone": "512718819",
+      "password": "123456",
+      "role": "user",
+      "approved": false,
+      "createdAt": "2026-06-27T05:08:34.991Z"
+    },
+    {
+      "id": "u_admin",
+      "name": "Admin",
+      "email": "admin@eliteestate.com",
+      "phone": "+25261000000",
+      "password": "admin123",
+      "role": "admin",
+      "approved": true,
+      "createdAt": "2026-06-23T11:00:00Z"
+    },
+    {
+      "id": "u_user",
+      "name": "User Agent",
+      "email": "user@eliteestate.com",
+      "phone": "+25261111111",
+      "password": "user123",
+      "role": "user",
+      "approved": true,
+      "createdAt": "2026-06-23T11:00:00Z"
+    },
+    {
+      "id": "u_pending",
+      "name": "Jaamac Cali",
+      "email": "jaamac@eliteestate.com",
+      "phone": "+252615123456",
+      "password": "user123",
+      "role": "user",
+      "approved": false,
+      "createdAt": "2026-06-24T12:00:00Z"
+    }
+  ]
+}

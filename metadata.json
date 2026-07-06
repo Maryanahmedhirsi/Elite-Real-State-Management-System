@@ -1,0 +1,11 @@
+{
+  "name": "Elite Real Estate Management System",
+  "description": "A comprehensive real estate management system with dashboard, property tracking, financial reports, tenant management, and maintenance coordination.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
