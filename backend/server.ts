@@ -843,3 +843,5 @@ if (process.env.NODE_ENV !== 'production') {
 app.listen(PORT, '0.0.0.0', () => {
   console.log(`🚀 EliteEstate Backend & Frontend live on http://localhost:${PORT}`);
 });
+
+export default app;
