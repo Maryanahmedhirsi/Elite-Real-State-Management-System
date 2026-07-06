@@ -150,7 +150,7 @@
   "sales": [
     {
       "id": "wgggzln",
-      "propertyId": "kqjxyrz",
+      "propertyId": "3",
       "clientName": "muuse3 ciise ali",
       "amount": 9000,
       "date": "2026-06-27",
@@ -231,6 +231,17 @@
       "role": "user",
       "approved": false,
       "createdAt": "2026-06-24T12:00:00Z"
+    }
+  ],
+  "trash": [],
+  "activityLogs": [
+    {
+      "id": "act_1",
+      "action": "Kudaray",
+      "module": "Nidaamka",
+      "description": "Nidaamka Elite Estate si guul leh ayaa loo kiciyay.",
+      "timestamp": "2026-06-23T11:00:00Z",
+      "userEmail": "admin@eliteestate.com"
     }
   ]
 }
