@@ -544,10 +544,12 @@ app.post('/api/trash/empty', async (req, res) => {
 
 // DB Connection Status Endpoint
 app.get('/api/db-status', (req, res) => {
+  const hasUrl = process.env.SUPABASE_URL || process.env.VITE_SUPABASE_URL || process.env.PROJECT_URL;
+  const hasKey = process.env.SUPABASE_ANON_KEY || process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.VITE_SUPABASE_ANON_KEY || process.env.PROJECT_ANON_KEY;
   res.json({
     useSupabase,
     useFirebase: false,
-    hasSupabaseEnv: !!(process.env.SUPABASE_URL && (process.env.SUPABASE_ANON_KEY || process.env.SUPABASE_SERVICE_ROLE_KEY))
+    hasSupabaseEnv: !!(hasUrl && hasKey)
   });
 });
 
